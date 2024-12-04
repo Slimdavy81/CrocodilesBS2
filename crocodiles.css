@@ -22,6 +22,7 @@ body {
     margin: 0 auto 0 auto;
 }
 H1 {
+    text-align: center;
     color: hsl(135, 40%, 98%);
     font-family: "Sour Gummy", Times, serif;
     line-height: 1.1;
