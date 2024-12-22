@@ -1,10 +1,33 @@
 /*import fonts from google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.ballet-uniquifier> {
+    font-family: "Eagle Lake", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    .b {
+        font-family: "Jim Nightshade", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .eagle-lake-regular {
+        font-family: "Eagle Lake", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      
+  }
+.jim-nightshade-regular {
+    font-family: "Eagle Lake", Times, serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /* css reset */
 * {
-    padding: 20;
-    margin: 10;
+    padding: 0;
+    margin: 0;
     font-size: 100%;
     line-height: 5em;
 }
@@ -18,32 +41,39 @@ body {
 
 /*content container to centre content */
 .container {
-    max-width: 1020px;
-    margin: 0 auto 0 auto;
+    max-width: 1920px;
+    margin: 0rem auto 0rem auto;
 }
+
+/*default styling for headings */
 H1 {
     text-align: center;
-    color: hsl(135, 40%, 98%);
-    font-family: "Sour Gummy", Times, serif;
+    color: hsl(0, 60%, 98%);
+    font-family: "Jim Nightshade", Times, serif;
     line-height: 1.1;
     font-weight: 700;
     }
-/*default styling for headings */
-H2,
+H2 {
+        text-align: center;
+        color: hsl(0, 1%, 38%);
+        font-family: "Jim Nightshade", Times, serif;
+        line-height: 3;
+        font-weight: 700;
+        }
 H3,
 H4,
 H6,
 H6 {
-    color: hsl(138, 80%, 40%);
-    font-family: "Sour Gummy", Times, serif;
-    line-height: 1.1;
-    font-weight: 700;
+    color: hsl(120, 26%, 96%);
+    font-family: "Jim Nightshade", Times, serif;
+    line-height:1;
+    font-weight: 100;
 }
 
 /*specific styles*/
 h1 {
     font-size: 4.25rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     font-weight: 900;
 }
 
@@ -67,7 +97,7 @@ h4 {
 /* Paragraphs */
 
 p {
-    font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
+    font-family: "Eagle Lake", Arial, Helvetica, sans-serif;
     font-weight: 20;
     line-height: 1.5;
     font-size: 1.125rem;
@@ -77,7 +107,7 @@ p {
 
 /*paragraph large */
 p.large {
-    font-family: "Sour Gummy", Georgia, 'Times New Roman', Times,
+    font-family: "Eagle Lake", Georgia, 'Times New Roman', Times,
         serif;
     font-weight: 400;
     font-style: italic;
@@ -93,7 +123,7 @@ ul {
 }
 
 ul li {
-    font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
+    font-family: "Jim Nightshade", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 1.125rem;
@@ -113,47 +143,47 @@ a:hover {
 }
 
 a:visited {
-    color: #6935d2;
+    color: #04f430;
 }
 
 /* images*/
 img {
-    max-width: 1020px;
+    max-width: 635px;
     width: 100%;
     height: auto;
-    border: 1px solid #04f761;
-    margin-bottom: 2rem;
+    border: 5px solid #070808;
+    margin-bottom: 1rem;
 }
 
 /*blockquote*/
 figure.quote {
-    border-left: 8px solid #D8415C;
-    padding: 1.5rem 0 1.5rem 2rem;
-    margin-bottom: 2rem;
+    border-right: 8px solid #fafafa;
+    padding: 10rem 10rem 10rem;
+    margin-bottom: 0rem;
 }
 
 figure.quote p {
-    margin-bottom: 0;
+    margin-bottom: 70;
 }
 
 figure.quote blockquote {
-    margin-bottom: .5rem;
+    margin-bottom: 7.5rem;
 }
 
 figure.quote figcaption p {
-    font-weight: 700;
+    font-weight: 100;
 }
 
 footer {
     padding: 1.5rem 0 1.5rem 0;
     margin-top: 2rem;
-    border-top: 1px solid #101010;
+    border-top: 1px solid #fefefe;
 }
 main {
-margin-bottom: 2.5rem;
+margin-bottom: 3rem;
 }
 header{
-    border-bottom:2px solid #101010;
+    border-bottom:2px solid #faf6f6;
     padding:1.5rem 0;
     }
     header p.logo{
@@ -164,18 +194,18 @@ header{
     }
    
     .colour-block{
-    padding:3rem 0 3rem 0;
-    background-color:#030303;
+    padding:1.5rem 0 3rem 0;
+    background-color:#070707;
     margin-bottom:2.5rem;
     }
     .highlight {
-        background-color: #1bb40d;
+        background-color: #09f8c4;
         padding:0 0.5rem;
         }
         /*css grids*/
         .grid {
             display: flex;
-            gap:24px;
+            gap:12px;
             flex-direction: row;
         }
         /* CSS grids column widths */
@@ -186,7 +216,7 @@ header{
     flex-basis: 66.66%;
     }
 /* media queries */
-@media only screen and (max-width:1068px) {
+@media only screen and (max-width:1920px) {
     .container {
     margin: 0 24px 0 24px;
     }
@@ -199,7 +229,7 @@ header{
     }
     }
     /* media queries */
-@media only screen and (max-width:1068px) {
+@media only screen and (max-width:1920px) {
     .container {
     margin: 0 24px 0 24px;
     }
@@ -262,7 +292,12 @@ header{
                     padding:2rem 0;
                     margin-bottom:2rem;
                     }
-                    }
+                    
+
+                        
+                        
+                      } 
+              
                     
 
  
