@@ -262,7 +262,7 @@ header{
         font-size: 1.25rem;
         }
         }
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 800px) {
             /*add below headings*/
             p.large {
             font-size: 1.25rem;
@@ -273,7 +273,7 @@ header{
             margin-bottom: 1rem;
             }
             }
-            @media only screen and (max-width: 600px) {
+            @media only screen and (max-width: 800px) {
                 /*add below paragraphs*/
                 ul {
                 margin-bottom: 1rem;
@@ -283,7 +283,7 @@ header{
                 margin-bottom: .5rem;
                 }
                 }
-                @media only screen and (max-width: 600px) {
+                @media only screen and (max-width: 800px) {
                     /*add below lists*/
                     header p.logo{
                     font-size:1.25rem;
